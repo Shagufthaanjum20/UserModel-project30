@@ -14,8 +14,10 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
 import os
 TEMPLATE_DIR=os.path.join(BASE_DIR,'templates')
+
 MEDIA_DIR=os.path.join(BASE_DIR,'media')
 
 # Quick-start development settings - unsuitable for production
@@ -125,5 +127,15 @@ MEDIA_URL='media/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 MEDIA_DIR=os.path.join(BASE_DIR,'media')
+
 MEDIA_ROOT=MEDIA_DIR
+
+
+EMAIL_HOST='smtp.gmail.com'
+EMAIL_HOST_USER='shagufthashaguftha22@gmail.com'
+EMAIL_HOST_PASSWORD='gbik clqe tbnx mxzm'
+EMAIL_USE_TLS=True
+EMAIL_USE_SSL=False
+EMAIL_PORT=587
